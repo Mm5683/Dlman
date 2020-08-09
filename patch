@@ -1,8 +1,58 @@
 diff --git a/1.c b/1.c
-index ccc3e7b..44163d8 100644
+deleted file mode 100644
+index 6e95ac8..0000000
 --- a/1.c
-+++ b/1.c
-@@ -1 +1,3 @@
- aaaaa
-+
-+bbbbb
++++ /dev/null
+@@ -1,16 +0,0 @@
+-#include<stdio.h>
+-void main(int argc,char argv[])
+-{
+-	int i,j,n=10;
+-	for(i=0;i<n;i++)
+-	{
+-		for(j=n-1;j>i;j--)
+-		{
+-			printf("%d %d\n",i,j);
+-		}
+-
+-	}
+-
+-
+-
+-}
+diff --git a/2.c b/2.c
+deleted file mode 100644
+index 90b4516..0000000
+--- a/2.c
++++ /dev/null
+@@ -1 +0,0 @@
+-aaaaaa
+diff --git a/README.md b/README.md
+index 6fe238c..5ee2f69 100644
+--- a/README.md
++++ b/README.md
+@@ -2,4 +2,3 @@
+ Hello-World
+ The first time you edit the readme.md to test the commit!
+ to do it!
+-aaa
+diff --git a/README1 b/README1
+deleted file mode 100644
+index 59acb85..0000000
+--- a/README1
++++ /dev/null
+@@ -1 +0,0 @@
+-My proc
+diff --git a/patch b/patch
+index 63e87b7..e69de29 100644
+--- a/patch
++++ b/patch
+@@ -1,8 +0,0 @@
+-diff --git a/1.c b/1.c
+-index ccc3e7b..44163d8 100644
+---- a/1.c
+-+++ b/1.c
+-@@ -1 +1,3 @@
+- aaaaa
+-+
+-+bbbbb
